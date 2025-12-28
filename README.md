@@ -1,55 +1,83 @@
-# 🔍 Spotlight
+# Spotlight
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/spotlight/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/spotlight)
+🔍 Quick launcher and search for files, apps, and web.
 
-> Universal search and command launcher (⌘K)
+[![CI](https://github.com/zos-apps/spotlight/actions/workflows/ci.yml/badge.svg)](https://github.com/zos-apps/spotlight/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@zos-apps/spotlight.svg)](https://www.npmjs.com/package/@zos-apps/spotlight)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**[Documentation](https://zos-apps.github.io/spotlight)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
+## About
 
-## Installation
-
-```bash
-npm install github:zos-apps/spotlight
-```
-
-Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
-
-## Usage
-
-```tsx
-import Spotlight from '@zos-apps/spotlight';
-
-function App() {
-  return <Spotlight />;
-}
-```
+Quick launcher and search for files, apps, and web.
 
 ## Features
 
-- Native zOS window integration
-- Dark mode support
-- Keyboard shortcut: `cmd+k`
-- Context menu actions
-- Menu bar integration
+- App launching
+- File search
+- Web search
+- Calculator
+- Quick Look
 
-## Category
+## Installation
 
-**System**
+### From App Store
+Open the **App Store** in zOS and search for "Spotlight".
 
-## Permissions
+### Via npm
+```bash
+npm install @zos-apps/spotlight
+```
 
-- `apps.list`
-- `apps.open`
+## Usage
 
-## Links
+- Type to search
+- Arrow keys to navigate
+- Enter to open
 
-- [Documentation](https://zos-apps.github.io/spotlight)
-- [GitHub Repository](https://github.com/zos-apps/spotlight)
-- [Report Issues](https://github.com/zos-apps/spotlight/issues)
-- [All zOS Apps](https://github.com/zos-apps)
+## Keyboard Shortcuts
+
+| Shortcut | Action |
+|----------|--------|
+| `Cmd+Space` | Open |
+| `↑↓` | Navigate |
+| `Enter` | Open |
+| `Cmd+B` | Web search |
+
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Documentation
+
+- [User Guide](https://zos-apps.github.io/spotlight)
+- [API Reference](https://zos-apps.github.io/spotlight/api)
+- [Changelog](https://github.com/zos-apps/spotlight/releases)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/zos-apps/spotlight/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
 MIT © [Hanzo AI](https://hanzo.ai)
+
+---
+
+<p align="center">
+  <a href="https://hanzo.ai">
+    <img src="https://hanzo.ai/logo.svg" alt="Hanzo AI" width="100">
+  </a>
+</p>
+<p align="center">
+  Built with ❤️ by <a href="https://hanzo.ai">Hanzo AI</a>
+</p>

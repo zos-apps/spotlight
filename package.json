@@ -25,7 +25,28 @@
       "centered": true,
       "modal": true,
       "transparent": true
-    }
+    },
+    "about": "Quick launcher and search for files, apps, and web.",
+    "help": [
+      "Type to search",
+      "Arrow keys to navigate",
+      "Enter to open"
+    ],
+    "docs": "https://zos-apps.github.io/spotlight",
+    "site": "https://github.com/zos-apps/spotlight",
+    "shortcuts": [
+      "Cmd+Space Open",
+      "↑↓ Navigate",
+      "Enter Open",
+      "Cmd+B Web search"
+    ],
+    "features": [
+      "App launching",
+      "File search",
+      "Web search",
+      "Calculator",
+      "Quick Look"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -58,5 +79,13 @@
     "spotlight",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
