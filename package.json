@@ -1,0 +1,38 @@
+{
+  "name": "@anthropic/spotlight",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.spotlight",
+    "name": "Spotlight",
+    "icon": "🔍",
+    "category": "system",
+    "description": "Universal search and command launcher (⌘K)",
+    "permissions": ["apps.list", "apps.open"],
+    "shortcut": "cmd+k",
+    "window": {
+      "defaultSize": { "width": 680, "height": 460 },
+      "resizable": false,
+      "centered": true,
+      "modal": true,
+      "transparent": true
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
