@@ -1,41 +1,55 @@
 # 🔍 Spotlight
 
-Universal search and command launcher for zOS (⌘K).
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/spotlight/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/spotlight)
 
-## Features
+> Universal search and command launcher (⌘K)
 
-- **App Search** - Find and launch any zOS app instantly
-- **Quick Actions** - Take screenshot, toggle dark mode, lock screen
-- **Calculator** - Type math expressions for instant results  
-- **URL Launcher** - Type URLs to open in browser
-- **Command Palette** - Prefix with `/` or `>` for commands
-- **Keyboard Navigation** - ↑↓ to navigate, Enter to select, Esc to close
-
-## Keyboard Shortcuts
-
-| Key | Action |
-|-----|--------|
-| `⌘K` | Open Spotlight |
-| `↑↓` | Navigate results |
-| `Enter` | Select item |
-| `Esc` | Close |
-| `Tab` | Next item |
+**[Documentation](https://zos-apps.github.io/spotlight)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
 
 ## Installation
 
 ```bash
-npm install @anthropic/spotlight
+npm install github:zos-apps/spotlight
 ```
+
+Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
 
 ## Usage
 
 ```tsx
-import Spotlight from '@anthropic/spotlight';
+import Spotlight from '@zos-apps/spotlight';
 
-// Typically opened via ⌘K shortcut in zOS
-<Spotlight onClose={() => setOpen(false)} />
+function App() {
+  return <Spotlight />;
+}
 ```
+
+## Features
+
+- Native zOS window integration
+- Dark mode support
+- Keyboard shortcut: `cmd+k`
+- Context menu actions
+- Menu bar integration
+
+## Category
+
+**System**
+
+## Permissions
+
+- `apps.list`
+- `apps.open`
+
+## Links
+
+- [Documentation](https://zos-apps.github.io/spotlight)
+- [GitHub Repository](https://github.com/zos-apps/spotlight)
+- [Report Issues](https://github.com/zos-apps/spotlight/issues)
+- [All zOS Apps](https://github.com/zos-apps)
 
 ## License
 
-MIT
+MIT © [Hanzo AI](https://hanzo.ai)

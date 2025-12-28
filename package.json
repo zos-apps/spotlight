@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/spotlight",
+  "name": "@zos-apps/spotlight",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,10 +11,16 @@
     "icon": "🔍",
     "category": "system",
     "description": "Universal search and command launcher (⌘K)",
-    "permissions": ["apps.list", "apps.open"],
+    "permissions": [
+      "apps.list",
+      "apps.open"
+    ],
     "shortcut": "cmd+k",
     "window": {
-      "defaultSize": { "width": 680, "height": 460 },
+      "defaultSize": {
+        "width": 680,
+        "height": 460
+      },
       "resizable": false,
       "centered": true,
       "modal": true,
@@ -34,5 +40,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Universal search and command launcher (⌘K)",
+  "homepage": "https://zos-apps.github.io/spotlight",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/spotlight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/spotlight/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "spotlight",
+    "macos",
+    "desktop"
+  ]
 }
