@@ -46,7 +46,26 @@
       "Web search",
       "Calculator",
       "Quick Look"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/spotlight"
+    },
+    "featured": false,
+    "tags": [
+      "system",
+      "utility",
+      "spotlight"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/spotlight/issues",
+    "changelog": "https://github.com/zos-apps/spotlight/releases"
   },
   "scripts": {
     "build": "tsup",
